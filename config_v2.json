@@ -1,0 +1,9 @@
+{
+  "cdnResPath":"E:\\wx_game\\Ocean\\OceanTribe\\resource-Remote\\resource",
+  "releaseDir":"release_v2",
+  "outPath":"E:\\wx_game\\web\\publish_ocdsp",
+  "webDir":"web",
+  "verDir":"ver",
+  "needAddPackage":"yes",
+  "platformCfg":"baseConfig"
+}

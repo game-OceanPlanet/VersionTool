@@ -1,0 +1,8 @@
+{
+  "cdnResPath":"E:\work\H5MTTools\trunk\resource",
+  "releaseDir":"release_v1",
+  "outPath":"E:\work\Publish_H5Game_XYWSCli",
+  "webDir":"web",
+  "verDir":"ver",
+  "needAddPackage":"yes"
+}

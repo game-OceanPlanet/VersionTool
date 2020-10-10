@@ -1,0 +1,29 @@
+配置环境，已有环境不需重复安装：
+》install-cnpm.bat脚本安装npm中国镜像
+》install-gulp.bat脚本安装gulp
+》install-minimist.bat脚本安装minimist
+
+
+配置路径：
+》同目录拷贝configbak.json文件副本，改名为config_v1.json，然后修改文档中的目录为你电脑上对应的目录，用于老版本
+》同目录拷贝configbak.json文件副本，改名为config_v2.json，然后修改文档中的目录为你电脑上对应的目录，用于新版本
+
+
+发布老版本相关：
+》publish_v1.bat脚本为正常发版本脚本
+》publish_v1-lib.bat脚本为仅合并libs.min.js库，main-login.min.js库，main-game.min.js
+
+
+发布新版本相关：
+》publish_v2.bat脚本为正常发版本脚本
+》publish_v2-lib.bat脚本为仅合并libs.min.js库，main-login.min.js库，main-game.min.js
+
+
+
+如果gulp运行失败，可以尝试在本地安装gulp：
+cnpm install gulp gulp-concat gulp-uglify node-zip del
+或者执行：
+npm link gulp gulp-concat gulp-uglify node-zip del minimist
+
+config_*.json可选字段
+"platformCfg":"xyws_solgametest",值对应web\platformCfg下面的文件名，可自动修改版本号

@@ -1,0 +1,9 @@
+{
+  "cdnResPath":"E:\MT\H5MTTools\trunk\resource",
+  "releaseDir":"release_v1",
+  "outPath":"E:\MT\H5MTWeb",
+  "webDir":"webdemo",
+  "verDir":"ver",
+  "needAddPackage":"yes",
+  "platformCfg":"xyws_solgametest"
+}

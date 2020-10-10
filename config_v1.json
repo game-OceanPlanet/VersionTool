@@ -1,0 +1,9 @@
+{
+  "cdnResPath":"E:\\wx_game\\Ocean\\OceanPlanet\\resource-Remote\\resource",
+  "releaseDir":"release_v1",
+  "outPath":"E:\\wx_game\\web\\publish_ocp",
+  "webDir":"web",
+  "verDir":"ver",
+  "needAddPackage":"yes",
+  "platformCfg":"baseConfig"
+}
