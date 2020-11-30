@@ -789,6 +789,71 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return CheckBoxLoginSkin;
+})(eui.Skin);generateEUI.paths['resource/login_skins/InputTextSkin2.exml'] = window.InputTextSkin2 = (function (_super) {
+	__extends(InputTextSkin2, _super);
+	function InputTextSkin2() {
+		_super.call(this);
+		this.skinParts = ["textDisplay"];
+		
+		this.minHeight = 40;
+		this.minWidth = 300;
+		this.elementsContent = [this._Image1_i(),this._Rect1_i(),this.textDisplay_i()];
+		this.states = [
+			new eui.State ("normal",
+				[
+				])
+			,
+			new eui.State ("disabled",
+				[
+					new eui.SetProperty("textDisplay","textColor",0xff0000),
+					new eui.SetProperty("textDisplay","height",30)
+				])
+			,
+			new eui.State ("normalWithPrompt",
+				[
+				])
+			,
+			new eui.State ("disabledWithPrompt",
+				[
+				])
+		];
+	}
+	var _proto = InputTextSkin2.prototype;
+
+	_proto._Image1_i = function () {
+		var t = new eui.Image();
+		t.percentHeight = 100;
+		t.scale9Grid = new egret.Rectangle(1,3,8,8);
+		t.source = "";
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto._Rect1_i = function () {
+		var t = new eui.Rect();
+		t.fillColor = 0xffffff;
+		t.percentHeight = 100;
+		t.visible = false;
+		t.percentWidth = 100;
+		return t;
+	};
+	_proto.textDisplay_i = function () {
+		var t = new eui.EditableText();
+		this.textDisplay = t;
+		t.borderColor = 0xcdf3f7;
+		t.fontFamily = "specialGameFont";
+		t.left = "10";
+		t.promptColor = 0xdceeef;
+		t.right = "10";
+		t.size = 30;
+		t.text = "";
+		t.textAlign = "left";
+		t.textColor = 0x000000;
+		t.verticalAlign = "middle";
+		t.verticalCenter = "0";
+		t.percentWidth = 100;
+		return t;
+	};
+	return InputTextSkin2;
 })(eui.Skin);generateEUI.paths['resource/login_skins/CommonTipSkin.exml'] = window.CommonTipSkin = (function (_super) {
 	__extends(CommonTipSkin, _super);
 	function CommonTipSkin() {
@@ -1015,71 +1080,6 @@ window.skins=window.skins||{};
 		return t;
 	};
 	return GameLoadingViewSkin;
-})(eui.Skin);generateEUI.paths['resource/login_skins/InputTextSkin2.exml'] = window.InputTextSkin2 = (function (_super) {
-	__extends(InputTextSkin2, _super);
-	function InputTextSkin2() {
-		_super.call(this);
-		this.skinParts = ["textDisplay"];
-		
-		this.minHeight = 40;
-		this.minWidth = 300;
-		this.elementsContent = [this._Image1_i(),this._Rect1_i(),this.textDisplay_i()];
-		this.states = [
-			new eui.State ("normal",
-				[
-				])
-			,
-			new eui.State ("disabled",
-				[
-					new eui.SetProperty("textDisplay","textColor",0xff0000),
-					new eui.SetProperty("textDisplay","height",30)
-				])
-			,
-			new eui.State ("normalWithPrompt",
-				[
-				])
-			,
-			new eui.State ("disabledWithPrompt",
-				[
-				])
-		];
-	}
-	var _proto = InputTextSkin2.prototype;
-
-	_proto._Image1_i = function () {
-		var t = new eui.Image();
-		t.percentHeight = 100;
-		t.scale9Grid = new egret.Rectangle(1,3,8,8);
-		t.source = "";
-		t.percentWidth = 100;
-		return t;
-	};
-	_proto._Rect1_i = function () {
-		var t = new eui.Rect();
-		t.fillColor = 0xffffff;
-		t.percentHeight = 100;
-		t.visible = false;
-		t.percentWidth = 100;
-		return t;
-	};
-	_proto.textDisplay_i = function () {
-		var t = new eui.EditableText();
-		this.textDisplay = t;
-		t.borderColor = 0xcdf3f7;
-		t.fontFamily = "specialGameFont";
-		t.left = "10";
-		t.promptColor = 0xdceeef;
-		t.right = "10";
-		t.size = 30;
-		t.text = "";
-		t.textAlign = "left";
-		t.textColor = 0x000000;
-		t.verticalAlign = "middle";
-		t.verticalCenter = "0";
-		t.percentWidth = 100;
-		return t;
-	};
-	return InputTextSkin2;
 })(eui.Skin);generateEUI.paths['resource/login_skins/ServerListTextInputSkin.exml'] = window.ServerListTextInputSkin = (function (_super) {
 	__extends(ServerListTextInputSkin, _super);
 	function ServerListTextInputSkin() {
